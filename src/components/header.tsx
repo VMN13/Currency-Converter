@@ -1,4 +1,4 @@
-import Franklin from '../img/Franklin.png'
+import Franklin from '../img/franklin.png'
 import Goodes from '../img/Goodes.png'
 import Gandi from '../img/Gandi.png'
 export default function Header() {
