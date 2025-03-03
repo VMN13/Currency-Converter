@@ -1,11 +1,10 @@
 import Franklin from '../img/franklin.png'
-import Goodes from '../img/Goodes.png'
-import Gandi from '../img/Gandi.png'
+
 export default function Header() {
   return (
     <>
       <div className='App'>
-        <div className="
+        <div className="Container
           grid 
           grid-cols-3 
           grid-rows-1 
@@ -15,48 +14,55 @@ export default function Header() {
           mt-[60px] 
           mb-[200px] 
           z-[1] 
-          bg-green-950 ">
+          bg-green-950
+          shadow-[0_1px_2px_rgba(0,0,0,0.1)]
+        shadow-white">
 
-            <div className="
-              col-start-1 
-              row-start-1">
-          <img className='
-            Goodes 
-            w-[120px]  
-            cursor-pointer 
-            duration-700 
-            rounded-[180px] 
-            scale-125' 
-            src={Goodes} 
-            alt="Franklin" />
-          </div>
+<div className="
+  col-start-1 
+  row-start-1">
+    <img className='
+      franklin 
+      z-[2] 
+      w-[180px]
+      cursor-pointer 
+      duration-700' 
+        src={Franklin} 
+        alt="Franklin" />
+</div>
           
-          <div className="
-            col-start-2 
-            row-start-1">
-            <img className='
-              franklin 
-              z-[2] 
-              w-[180px] 
-              cursor-pointer 
-              duration-700' 
-              src={Franklin} 
-              alt="Franklin" />
-            </div>
+<div className="
+  col-start-2 
+  row-start-1">
+  <h1 className="
+    lg:text-5xl 
+    sm:text-1xl 
+    md:text-4xl
+    font-bold 
+    tracking-[6px]  
+    text-amber-50
+    tablet:bg-red-500
+    ">
+      Currency Converter
+    </h1>
+</div>
 
-            <div className="col-start-3 row-start-1">
-              <img className='
-                Goodes 
-                w-[120px] 
-                cursor-pointer 
-                rounded-[180px] 
-                scale-125  
-                duration-700' 
-                src={Gandi} 
-                alt="Franklin" />
-          </div>
-        </div>
-      </div>
+<div className="col-start-3 row-start-1">
+  <img className='
+    franklin 
+    z-[2] 
+    w-[180px] 
+    cursor-pointer 
+    duration-700
+    sm:w-[50px] 
+    lg:w-[180px]
+    md:w-[100px]
+    ' 
+      src={Franklin} 
+      alt="Franklin" />
+</div>
+</div>
+</div>
     </>
   );
 }

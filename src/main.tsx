@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './styles/index.css';
+import './styles/mediaPhone.css';
 import App from './App.tsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NoPage from './components/noPage.tsx';
