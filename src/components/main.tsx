@@ -28,9 +28,7 @@ export default function Main() {
   font-bold 
   p-[100px]
   shadow-[0_1px_2px_rgba(0,0,0,0.1)]
-shadow-white
-  
-">
+shadow-white">
 
   <h1 className="Check
     text-4xl 
@@ -65,10 +63,9 @@ text-gray-300">
     <input 
       type="number" 
       className="
-        lg:w-[640px]
+        lg:w-[630px]
         inline-flex
         bg-black-300
-        
         border
         border-white-200
         text-center 
@@ -87,8 +84,7 @@ text-gray-300">
     items-center
     mt-[-5px]
     currency
-    "
-    >
+    ">
 
       <div className="
       currency
@@ -128,10 +124,10 @@ text-gray-300">
                   rounded-md
                   p-2
                   cursor-pointer">
-                    <option className="bg-black">
+                    <option className="bg-blue-800">
                             USD</option>
-                    <option>INR</option>
-                    <option>NRP</option>
+                    <option className='bg-amber-600'>INR</option>
+                    <option className='bg-red-700'>NRP</option>
               </select>
         </div>
 </div>
@@ -189,10 +185,10 @@ currency
                   rounded-md
                   p-2
                   cursor-pointer">
-                  <option className="decoration-red-200">
+                  <option className="bg-amber-600">
                           INR</option>
-                  <option>USD</option>
-                  <option>NRP</option>
+                  <option className="bg-blue-800" >USD</option>
+                  <option className='bg-red-700'>NRP</option>
               </select>
   </div>
 </div>

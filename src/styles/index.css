@@ -65,3 +65,14 @@ input[type="number"] {
 input[type="number"]:hover {
   color:rgb(255, 255, 255);
 }
+
+
+option:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.flag:hover {
+  cursor: pointer;
+  filter:brightness(120%);
+}
